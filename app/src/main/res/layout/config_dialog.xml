@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/config_view"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+  
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:padding="14dp">
+
+         <Button
+	         android:id="@+id/main_button_inout"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:text=""
+	         android:textSize="14sp" >
+     		</Button> 
+
+
+            <!-- Server IP -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Server IP:"
+                android:textSize="14dp"  >
+                
+            </TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_serverip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                                                android:textSize="14dp">
+            </EditText>
+
+            <!-- Server Port -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Server Port:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_serverport"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+ 
+            <!-- Com ou sem teclado -->
+       		<CheckBox
+              android:id="@+id/keyboard"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="14dp"
+              android:text="Teclado" />
+       		
+            <!-- Msg A Validar -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg 'A validar':"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/config_dialog_edit_text_a_validar"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+
+
+            <!-- Entradas OK -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENTRADAS"
+                android:gravity="center"
+                android:textSize="14dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg OK:"
+                android:textSize="14dp"></TextView>
+
+            <EditText
+                android:id="@+id/modify_pin_dialog_edit_text_in_ok"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+            
+            <!-- Entradas KO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg KO:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/modify_pin_dialog_edit_text_in_ko"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+			        
+			            <CheckBox
+			                android:id="@+id/modify_pin_dialog_edit_text_in_muda"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="14dp"
+			                android:text="Muda imagem" />
+			
+			            <CheckBox
+			                android:id="@+id/modify_pin_dialog_edit_text_in_mostra"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="14dp"			                
+			                android:text="Mostra" />
+			</LinearLayout>            
+            
+            <!-- Saidas OK -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAIDAS"
+                android:gravity="center"
+                android:textSize="14dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg OK:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/modify_pin_dialog_edit_text_out_ok"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+            <!-- Saidas KO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg KO:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/modify_pin_dialog_edit_text_out_ko"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>  
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+			        
+			            <CheckBox
+			                android:id="@+id/modify_pin_dialog_edit_text_out_muda"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="14dp"
+			                android:text="Muda imagem" />
+			
+			            <CheckBox
+			                android:id="@+id/modify_pin_dialog_edit_text_out_mostra"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="14dp"			                
+			                android:text="Mostra" />
+			</LinearLayout>             
+            
+            <!-- SÓ Entradas OK -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SÓ ENTRADAS"
+                android:gravity="center"
+                android:textSize="14dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg OK:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/modify_pin_dialog_edit_text_soin_ok"
+                android:layout_width="fill_parent"
+                                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+            <!-- SÓ Entradas KO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Msg KO:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/modify_pin_dialog_edit_text_soin_ko"
+                android:layout_width="fill_parent"
+                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>    
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+			        
+			            <CheckBox
+			                android:id="@+id/modify_pin_dialog_edit_text_soin_muda"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="14dp"
+			                android:text="Muda imagem" />
+			
+			            <CheckBox
+			                android:id="@+id/modify_pin_dialog_edit_text_soin_mostra"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:textSize="14dp"			                
+			                android:text="Mostra" />
+			</LinearLayout>
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Espaçamento Topo - Teclado:"
+			android:textSize="14dp"></TextView>
+			<EditText
+				android:id="@+id/edit_text_espacamentotopteclado"
+				android:layout_width="fill_parent"
+				android:textSize="14dp"
+				android:layout_height="wrap_content">
+			</EditText>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Espaçamento Topo - Msgs:"
+				android:textSize="14dp"></TextView>
+			<EditText
+				android:id="@+id/edit_text_espacamentotopmsg"
+				android:layout_width="fill_parent"
+				android:textSize="14dp"
+				android:layout_height="wrap_content">
+			</EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamanho letra - Msgs:"
+                android:textSize="14dp"></TextView>
+            <EditText
+                android:id="@+id/edit_text_tamanholetramsg"
+                android:layout_width="fill_parent"
+                android:textSize="14dp"
+                android:layout_height="wrap_content">
+            </EditText>
+
+
+		</LinearLayout>
+
+ 
+    </LinearLayout>
+       
+             
+</ScrollView>

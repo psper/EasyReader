@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EasyReader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="local_ip">Ip Local : </string>
+    <string name="server_ip">Ip Server : </string>
+    <string name="app_title">Controlo de acessos v0.6</string>
+    <string name="in">ENTRADAS</string>
+    <string name="out">SAIDAS</string>
+    <string name="soin">SÓ ENTRADAS</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">mifareExample</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_exit">Are you sure to exit?</string>
+    <string name="et_editTitle">Modify the card block %s of the content (content format is not correct can damage the card)</string>
+    <string name="lb_curContent">Current Content:</string>
+    <string name="lb_newContent">New Content:</string>
+    <string name="lb_block">Block:</string>
+    <string name="lb_blockContent">Block Content:</string>
+    <string name="lb_redetect">Re-detect the card</string>
+    <string name="lb_detected">Card is being detected</string>
+    <string name="tips">Tips</string>
+</resources>
