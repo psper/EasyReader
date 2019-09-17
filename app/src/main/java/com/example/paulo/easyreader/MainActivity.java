@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
     private String MyAdapter;
     private int MySlot;
     private String MyLog= ".";
-    private final String APP_VERSION = "1.10";
+    private final String APP_VERSION = "1.11";
     private static final int MAX_LINES = 14;
     private TextView mDialogResponseTextView;
     private TextView mStatusTextView;
